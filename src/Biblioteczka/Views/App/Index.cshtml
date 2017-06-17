@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<Biblioteczka.Models.Bookshelve>
 @{ 
-    ViewBag.Title = "Strona Główna";
+    ViewBag.Title = "Main Page";
 }
 
 <div class="row">
@@ -10,8 +10,8 @@
     </div>
 
      <div class="col-md-4" id="InfoPage">
-         <h1>Witaj w przytulnej biblioteczce</h1>
-         <p>Aplikacja ta umożliwia zapisywanie pozycji książkowych</p>
+         <h1>Welcome in your library.</h1>
+         <p>This application allows you to save your books on bookshelves.</p>
          <a asp-controller="App" asp-action="bookshelves" class="btn btn-lg btn-success">View My Bookshelves</a>
      </div>
 

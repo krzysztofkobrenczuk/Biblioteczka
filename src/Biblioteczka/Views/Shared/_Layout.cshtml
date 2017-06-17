@@ -47,7 +47,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     @if (User.Identity.IsAuthenticated)
                     {
-                        <li><span id="username">Zalogowany: @User.Identity.Name</span></li>
+                        <li><span id="username">User: @User.Identity.Name</span></li>
                         <li><a asp-controller="Auth" asp-action="Logout">Logout</a></li>
                     }
                     @if (!User.Identity.IsAuthenticated)

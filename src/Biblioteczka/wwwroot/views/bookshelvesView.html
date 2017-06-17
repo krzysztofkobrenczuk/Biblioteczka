@@ -2,10 +2,19 @@
 <div class="col-md-6 col-md-offset-3">
     <div class="text-danger" ng-show="vm.errorMessage">{{vm.errorMessage}}</div>
     <wait-cursor displaywhen="vm.isBusy"></wait-cursor>
-    <table class="table table-responsive" table-striped">
-        <tr ng-repeat="bookshelves in vm.bookshelves">
+
+
+    <h2>Your bookshelves</h2>
+    <table class="table table-responsive table-striped">
+        <tr>
+            <th>Bookshelve Name</th>
+            <th>Date Created</th>
+            <th>Edit your bookshelve</th>
+            <th>Delete bookshelve</th>
+            </tr>
+
+            <tr ng-repeat="bookshelves in vm.bookshelves">
             <td>{{bookshelves.name}}</td>
-            <td>{{bookshelves.id}}</td>
             <td>{{bookshelves.dateCreated | date : shortDate }}</td>
 
             <!-- # przychodzi z ROUTE app-bookshelve mówi przeglądarce, że to inter-page link-->
