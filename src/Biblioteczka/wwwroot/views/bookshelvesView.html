@@ -7,10 +7,10 @@
     <h2>Your bookshelves</h2>
     <table class="table table-responsive table-striped">
         <tr>
-            <th>Bookshelve Name</th>
+            <th>Bookshelf Name</th>
             <th>Date Created</th>
-            <th>Edit your bookshelve</th>
-            <th>Delete bookshelve</th>
+            <th>Edit your bookshelf</th>
+            <th>Delete bookshelf</th>
             </tr>
 
             <tr ng-repeat="bookshelves in vm.bookshelves">
@@ -26,7 +26,7 @@
     </table>
     <form novalidate name="newBookshelveForm" ng-submit="vm.addBookshelve()">
         <div class="form-group">
-            <label for="name">Bookshelve Name</label>
+            <label for="name">Bookshelf Name</label>
             <input class="form-control" type="text" id="name" name="name" ng-model="vm.newBookshelve.name" required ng-minlength="3" />
             <span ng-show="newBookshelveForm.name.$error.required" class="text-warning">Name is required</span>
             <span ng-show="newBookshelveForm.name.$error.minlength" class="text-warning">Name must be at least 3 characters</span>

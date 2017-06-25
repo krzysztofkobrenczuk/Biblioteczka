@@ -3,6 +3,6 @@
     "ToAddress": "kobra1253@gmail.com"
   },
   "ConnectionStrings": {
-    "LibraryContextConnection": "Server=(localdb)\\MSSQLLocalDb;Database=BiblioteczkaDb;Trusted_Connection=true;MultipleActiveResultSets=true;"
+    "LibraryContextConnection": "Server=(localdb)\\MSSQLLocalDb;Database=LibraryDb;Trusted_Connection=true;MultipleActiveResultSets=true;"
   }
 }
