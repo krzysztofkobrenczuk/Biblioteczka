@@ -1,6 +1,5 @@
 # Biblioteczka
-Decription in progress
-
+Web application to store your favourite books in separate bookshelves. Add bookshelves and manage with adding some books.
 
 ## Getting Started
 These instruction will help you to run this project on your local machine.
@@ -16,3 +15,8 @@ In Visual Studio open Package Manager Console then write
 ```
 
 After that commands, first user with example bookshelf and book on it are created.
+
+### Images
+![IndexPage](http://i.imgur.com/VenKLV6.png)
+![BookshelvesPage](http://i.imgur.com/pmfZ74d.png)
+![BooksPage](http://i.imgur.com/XnGc9XW.png)
