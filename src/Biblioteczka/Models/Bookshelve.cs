@@ -11,9 +11,7 @@ namespace Biblioteczka.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public DateTime DateCreated { get; set; }
-        public string UserName { get; set; }
-
-        //Member which hold each stops on our trip   -> ICollection of stop entities
+        public string UserName { get; set; }      
         public ICollection<Book> Books { get; set; }
     }
 }
